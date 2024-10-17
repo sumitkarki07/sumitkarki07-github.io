@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Profile container styling */
+  .profile-container {
+    display: flex;  /* align items in a row (text and image)*/
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px auto;
+    width: 60%;
+    padding: 20px;
+    border: 2px solid #333; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #f9f9f9;
+  }
+  
+  .profile-info {
+    margin-right: 100px;
+  }
+  
+  .profile-info h1 {
+    font-size: 50px;
+  }
+  
+  .profile-info p {
+    font-size: 18px;
+    color: rgb(7, 7, 7);
+    margin-bottom: 10px;
+  }
+  
+  .profile-image img {
+    width: 150px;
+    height: 150px;
+   
+  }
+  .about-me-container {
+    margin: 40px auto;
+    width: 60%;
+    border: 2px solid #333; 
+    border-radius: 10px; 
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #f9f9f9; 
+  }
+
+  .about-me-container h2 {
+    font-size: 30px; 
+    margin-bottom: 10px; 
+  }
+  
+  .about-me-container p {
+    font-size: 16px; 
+    line-height: 1.5; 
+    color: rgb(7, 7, 7); 
+  }
+  .education-interest-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+    width: 60%;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .education-section,
+  .interest-section {
+    width: 50%;
+  }
+  .interest-section {
+    width: 35%;
+  }
+  
+  .education-section h2,
+  .interest-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  
+  td {
+    padding: 8px 0; 
+    font-size: 16px; 
+  }
+  
+  .interest-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .interest-section li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 8px;
+  }
+  footer {
+    text-align: center; 
+    padding: 10px 0; 
+    background-color: #333; 
+    color: #fff; 
+    font-size: 14px; 
+    margin-top: 20px; 
+  }
+  
