@@ -9,54 +9,99 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-         <div class="profile-container">
-            <div class="profile-info">
-                <h1>Sumit Karki</h1>
-                <p>Bachelor of Science in computer science</p>
+    <div class="outline">
+    <div class="profile-container">
+        <div class="profile-info">
+            <h1>Sumit Karki</h1>
+            <p>Bachelor of Science in computer science</p>
             <div class="social_meida-icon">
-                <a href="https://www.linkedin.com/in/sumit-karki-602b0a235/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true" style="font-size: 30px;"></i></a>  <!--this link will open in new tab: (target=blank)-->
-                <a href="https://github.com/sumitkarki07"><i class="fab fa-github" aria-hidden="true" style="font-size: 30px;"></i></a>   <!--This will open in a same tab-->
+                <a href="https://www.linkedin.com/in/sumit-karki-602b0a235/" target="_blank"> <!--this link will open in new tab: (target=blank)-->
+                    <i class="fab fa-linkedin" aria-hidden="true" style="font-size: 30px;"></i>
+                </a>  
+                <a href="https://github.com/sumitkarki07">
+                    <i class="fab fa-github" aria-hidden="true" style="font-size: 30px;"></i> <!--This will open in a same tab-->
+                </a>   
             </div>
         </div>
-            <div class="profile-image">
-               <a href="https://www.sumit-karki.com.np/"> <img src="image/sumit karki.jpg" alt="profile-image"></a> <!--it fulfill the requirement of image link-->
-            </div>
-         </div>
-         <div class="about-me-container">
-            <h2>About Me</h2>
-            <p>
-                I’m Sumit Karki, an international freshman at UW-Green Bay, pursuing a Bachelor’s in Computer Science with a focus on Software Engineering.
-                 As the founder of <a href="https://yatruchautari.com/">YatruChautari</a>, I’m driven to showcase the extraordinary beauty of Nepal. My mission &#128640;? To build a powerful platform that not 
-                 only attracts but guides and inspires tourists to explore the vibrant culture and breathtaking landscapes of my homeland.
-            </p>
-        </div> 
-        <div class="education-interest-container">
-            <div class="education-section">
-                <h2>Education &#127891;</h2>
-                <table>
-                    <tr>
-                        <td>Bachelor in Computer Science</td>
-                        <td>University of Wisconsin-Green Bay</td>
-                        <td>2024-2028</td>
-                    </tr>
-                    <tr>
-                        <td>School Leaving Certificate</td>
-                        <td>Capital College And Research Center</td>
-                        <td>2021&nbsp;-&nbsp;2023</td> <!--to make number in same line:(&nbsp;)-->
-                    </tr>
-                </table>
-            </div>
-            <div class="interest-section">
-                <h2>Interests</h2>
-                <ul>
-                    <li> &#128187; Coding and Software Development</li>  <!--i have used unicode for emoji-->
-                    <li> &#128640; Entrepreneurship</li>
-                    <li> &#127757; Traveling and Exploring New Cultures</li>
-                </ul>
-            </div>
+        <div class="profile-image">
+            <a href="https://www.sumit-karki.com.np/">
+                <img src="image/sumit karki.jpg" alt="profile-image"> <!--it fulfill the requirement of image link-->
+            </a> 
         </div>
-        <footer>
-            <p>&copy; 2024 Sumit Karki. All rights reserved.</p> 
-        </footer>
+    </div>
+
+    <div class="about-me-container">
+        <h2>About Me</h2>
+        <p>
+            I’m Sumit Karki, an international freshman at UW-Green Bay, pursuing a Bachelor’s in Computer Science with a focus on Software Engineering.
+            As the founder of <a href="https://yatruchautari.com/">YatruChautari</a>, I’m driven to showcase the extraordinary beauty of Nepal.
+            My mission &#128640;? To build a powerful platform that not 
+            only attracts but guides and inspires tourists to explore the vibrant culture and breathtaking landscapes of my homeland.
+        </p>
+    </div>
+
+    <div class="education-interest-container">
+        <div class="education-section">
+            <h2>Education &#127891;</h2>
+            <table>  <!--Table without boarder-->
+                <tr>
+                    <td class="degree">Bachelor in Computer Science</td>
+                    <td class="date">2024 - 2028</td>
+                </tr>
+                <tr>
+                    <td class="university">University of Wisconsin-Green Bay</td>
+                </tr>
+                <tr>
+                    <td class="degree">School Leaving Certificate</td>
+                    <td class="date">2021&nbsp;-&nbsp;2023</td> <!--to make number in same line:(&nbsp;)-->
+                </tr>
+                <tr>
+                    <td class="university">Capital College And Research Center</td>
+                </tr>
+            </table>
+        </div>
+        <div class="interest-section">
+            <h2>Interests</h2>
+            <ul>    <!--unorderd list for interest section-->
+                <li> &#128187; Coding and Software Development</li>  <!--I have used unicode for emoji-->
+                <li> &#128640; Entrepreneurship</li>
+                <li> &#127757; Traveling and Exploring New Cultures</li>
+            </ul>
+        </div>
+    </div>
+    <div class="academic-milestone-container">
+        <div class="academic-milestone">
+            <h2>Academic Milestones</h2>
+            <ol>   <!-- Ordered list for academic milestones -->
+                <li>Served as IT head in CCRC IT Club</li>
+                <li>Founded <a href="https://hamroexamsathi.com/" target="_blank">HamroExamSathi</a> to help students prepare for exams</li>
+                <li>Competed in 36-hour NASA International Space Apps Challenge and won Galactic Problem Solver</li>
+            </ol>
+        </div>
+
+    </div>
+
+    <div class="hobbies-container">
+        <h2>Hobbies</h2>
+        <table class="bordered-table">  <!-- Table with borders : properties in CSS-->
+            <tr>
+                <td>Coding</td>
+                <td>I enjoy learning new languages and building projects</td>
+            </tr>
+            <tr>
+                <td>Traveling</td>
+                <td>Exploring new cultures and scenic landscapes. Check out my travel videos on <a href="https://www.youtube.com/@SumitKarkiSk" target="_blank">Sumit Karki SK</a>!</td>
+            </tr>
+            <tr>
+                <td>Photography</td>
+                <td>I like capturing moments and landscapes</td>
+            </tr>
+        </table>
+    </div>
+    </div> 
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Sumit Karki. All rights reserved.</p> 
+    </footer>
 </body>
 </html>
